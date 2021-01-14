@@ -1,6 +1,6 @@
 
 import Foundation
 
-public protocol Parser {
+public protocol SyntaxTreeFactory {
     func parse(_ text: String) throws -> SyntaxTree
 }
